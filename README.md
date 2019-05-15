@@ -43,9 +43,8 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Anaconda](https://www.anaconda.com/distribution/) - Pour les librairies python
+* [YDlidar](https://github.com/yangfuyuan/ydlidar_sdk) - Pour le SDK
 
 ## Contributing
 
