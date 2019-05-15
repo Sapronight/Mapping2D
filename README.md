@@ -15,11 +15,11 @@ Pour pouvoir run le script Python, il faut un ide fonctionnel afin de le compile
 
 ### Installation
 
-Aucune installation préalable n'est requise pour exécuter nos deux scripts. Il suffit juste de télécharger les deux dossiers.
+Aucune installation préalable n'est requise pour exécuter nos deux scripts. Il suffit juste de télécharger le dossier Debug.
 
 ## Exécution
 
-Dans le dossier contenant le code C++, choisissez le dossier [Debug](
+Dans le dossier contenant le code C++, choisissez le dossier [Debug] , il suffit d'executer [Debug/ydlidar_test1.exe]
 
 ### Break down into end to end tests
 
