@@ -1,2 +1,72 @@
-# Mapping2D
-ESME - Projet de fin d'année 2I
+# Projet de Majeure Intelligence Artificielle : Mapping 2D de l'environnement
+
+Par Mathilde Amar et Adrien Tran, étudiants en deuxième année
+
+Notre projet consiste à utiliser un lidar afin de faire une reconnaissance de l’environnement. A partir des données récoltées par celui-ci, nous devons les traiter afin de fournir une carte en 2D des objets environnants et prioriser les obstacles dans l’optique de la reconnaissance de l’environnement par le robot.
+Vous trouverez dans ce répertoire nos codes C++ et Python ainsi que les exécutables.
+
+## Pour commencer
+
+Téléchargez les deux dossiers, celui contenant le code C++ ainsi que celui avec le code Python.
+
+### Prérequis
+
+Pour pouvoir run le script Python, il faut un ide fonctionnel afin de le compiler avant l'exécution.
+
+### Installation
+
+Aucune installation préalable n'est requise pour exécuter nos deux scripts. Il suffit juste de télécharger les deux dossiers.
+
+## Exécution
+
+Dans le dossier contenant le code C++, choisissez le dossier [Debug](
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## Deployment
+
+Add additional notes about how to deploy this on a live system
+
+## Built With
+
+* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Maven](https://maven.apache.org/) - Dependency Management
+* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+
+## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+
+## Authors
+
+* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
