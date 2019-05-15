@@ -1,0 +1,662 @@
+﻿  ydlidar_driver.cpp
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(29): warning C4081: attendu 'newline' ; rencontré ';'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winbase.h(7417): warning C5039: 'TpSetCallbackCleanupGroup' : un pointeur ou une référence à une fonction pouvant lever une exception a été passé à une fonction C externe sous -EHc. Un comportement non défini peut se produire si cette fonction lève une exception.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(9989): warning C4668: '_WIN32_WINNT_WIN10_TH2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(9995): warning C4668: '_WIN32_WINNT_WIN10_RS1' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10000): warning C4668: '_WIN32_WINNT_WIN10_TH2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10004): warning C4668: '_WIN32_WINNT_WIN10_TH2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10011): warning C4668: '_WIN32_WINNT_WIN10_RS2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10021): warning C4668: '_WIN32_WINNT_WIN10_RS2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10025): warning C4668: '_WIN32_WINNT_WIN10_TH2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10030): warning C4668: '_WIN32_WINNT_WIN10_RS3' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10037): warning C4668: '_WIN32_WINNT_WIN10_RS4' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10040): warning C4668: '_WIN32_WINNT_WIN10_RS1' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10043): warning C4668: '_WIN32_WINNT_WIN10_RS4' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10048): warning C4668: '_WIN32_WINNT_WIN10_RS1' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10051): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10246): warning C4668: '_WIN32_WINNT_WIN10_RS2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10270): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(10831): warning C4668: '_WIN32_WINNT_WIN10_RS4' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(13662): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(13844): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(13947): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14043): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14147): warning C4668: '_WIN32_WINNT_WIN10_RS5' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14804): warning C4668: '_WIN32_WINNT_WIN10_RS2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14821): warning C4668: '_WIN32_WINNT_WIN10_RS3' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14838): warning C4668: '_WIN32_WINNT_WIN10_RS3' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14857): warning C4668: '_WIN32_WINNT_WIN10_RS2' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(14976): warning C4668: '_WIN32_WINNT_WIN10_RS3' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(15126): warning C4668: '_WIN32_WINNT_WIN10_RS4' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(15139): warning C4668: '_WIN32_WINNT_WIN10_RS4' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\um\winioctl.h(15367): warning C4668: '_WIN32_WINNT_WIN10_RS1' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\malloc.h(45): warning C4820: '_heapinfo' : '4' octets de remplissage ajoutés après données membres '_heapinfo::_useflag'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_exception.h(25): warning C4820: '__std_exception_data' : '7' octets de remplissage ajoutés après données membres '__std_exception_data::_DoFree'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vcruntime_typeinfo.h(44): warning C4820: '__std_type_info_data' : '7' octets de remplissage ajoutés après données membres '__std_type_info_data::_DecoratedName'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h(60): warning C4820: '_Collvec' : '4' octets de remplissage ajoutés après données membres '_Collvec::_Page'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h(66): warning C4820: '_Ctypevec' : '4' octets de remplissage ajoutés après données membres '_Ctypevec::_Page'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo.h(68): warning C4820: '_Ctypevec' : '4' octets de remplissage ajoutés après données membres '_Ctypevec::_Delfl'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xutility(4183): warning C4820: 'std::_Yarn<char>' : '7' octets de remplissage ajoutés après données membres 'std::_Yarn<char>::_Nul'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo(228): note: voir la référence à l'instanciation de classe modèle 'std::_Yarn<char>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo(228): warning C4820: 'std::_Locinfo' : '4' octets de remplissage ajoutés après données membres 'std::_Locinfo::_Lock'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xutility(4183): warning C4820: 'std::_Yarn<wchar_t>' : '6' octets de remplissage ajoutés après données membres 'std::_Yarn<wchar_t>::_Nul'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocinfo(230): note: voir la référence à l'instanciation de classe modèle 'std::_Yarn<wchar_t>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(182): warning C4820: 'std::locale::facet' : '4' octets de remplissage ajoutés après données membres 'std::locale::facet::_Myrefs'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(247): warning C4820: 'std::locale::_Locimp' : '3' octets de remplissage ajoutés après données membres 'std::locale::_Locimp::_Xparent'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(488): warning C4820: 'std::locale' : '7' octets de remplissage ajoutés après classe de base 'std::_Crt_new_delete'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(330): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(356): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(812): warning C4625: 'std::codecvt_base' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(812): warning C4626: 'std::codecvt_base' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1353): warning C4625: 'std::codecvt<char16_t,char,_Mbstatet>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1353): warning C4626: 'std::codecvt<char16_t,char,_Mbstatet>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1678): warning C4625: 'std::codecvt<char32_t,char,_Mbstatet>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1678): warning C4626: 'std::codecvt<char32_t,char,_Mbstatet>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1922): warning C4820: 'std::codecvt<wchar_t,char,_Mbstatet>' : '4' octets de remplissage ajoutés après données membres 'std::codecvt<wchar_t,char,_Mbstatet>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1922): warning C4625: 'std::codecvt<wchar_t,char,_Mbstatet>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(1922): warning C4626: 'std::codecvt<wchar_t,char,_Mbstatet>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2171): warning C4820: 'std::codecvt<unsigned short,char,_Mbstatet>' : '4' octets de remplissage ajoutés après données membres 'std::codecvt<unsigned short,char,_Mbstatet>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2171): warning C4625: 'std::codecvt<unsigned short,char,_Mbstatet>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2171): warning C4626: 'std::codecvt<unsigned short,char,_Mbstatet>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2219): warning C4625: 'std::ctype_base' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2219): warning C4626: 'std::ctype_base' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2721): warning C4625: 'std::ctype<char>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2721): warning C4626: 'std::ctype<char>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2962): warning C4820: 'std::ctype<wchar_t>' : '4' octets de remplissage ajoutés après données membres 'std::ctype<wchar_t>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2962): warning C4625: 'std::ctype<wchar_t>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(2962): warning C4626: 'std::ctype<wchar_t>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(3205): warning C4820: 'std::ctype<unsigned short>' : '4' octets de remplissage ajoutés après données membres 'std::ctype<unsigned short>::_Cvt'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(3205): warning C4625: 'std::ctype<unsigned short>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(3205): warning C4626: 'std::ctype<unsigned short>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(3250): warning C4625: 'std::ctype_byname<char>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(3250): warning C4626: 'std::ctype_byname<char>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(943): warning C4625: 'std::codecvt<char,char,_Mbstatet>' : le constructeur de copie a été implicitement défini comme étant supprimé
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(3255): note: voir la référence à l'instanciation de classe modèle 'std::codecvt<char,char,_Mbstatet>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocale(943): warning C4626: 'std::codecvt<char,char,_Mbstatet>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(192): warning C4820: 'std::error_code' : '4' octets de remplissage ajoutés après données membres 'std::error_code::_Myval'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(262): warning C4820: 'std::error_condition' : '4' octets de remplissage ajoutés après données membres 'std::error_condition::_Myval'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C4625: 'std::_Generic_error_category' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C5026: 'std::_Generic_error_category' : le constructeur de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C4626: 'std::_Generic_error_category' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(498): warning C5027: 'std::_Generic_error_category' : l'opérateur d'assignation de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C4625: 'std::_Iostream_error_category' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C5026: 'std::_Iostream_error_category' : le constructeur de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C4626: 'std::_Iostream_error_category' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(526): warning C5027: 'std::_Iostream_error_category' : l'opérateur d'assignation de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C4625: 'std::_System_error_category' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C5026: 'std::_System_error_category' : le constructeur de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C4626: 'std::_System_error_category' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\system_error(574): warning C5027: 'std::_System_error_category' : l'opérateur d'assignation de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xiosbase(589): warning C4820: 'std::ios_base::_Fnarray' : '4' octets de remplissage ajoutés après données membres 'std::ios_base::_Fnarray::_Index'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xiosbase(642): warning C4820: 'std::ios_base' : '4' octets de remplissage ajoutés après données membres 'std::ios_base::_Fmtfl'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(263): warning C4820: 'std::numpunct<char>' : '6' octets de remplissage ajoutés après données membres 'std::numpunct<char>::_Kseparator'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1848): note: voir la référence à l'instanciation de classe modèle 'std::numpunct<char>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4625: 'std::numpunct<char>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4626: 'std::numpunct<char>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4625: 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' : le constructeur de copie a été implicitement défini comme étant supprimé
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1850): note: voir la référence à l'instanciation de classe modèle 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4626: 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4625: 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>' : le constructeur de copie a été implicitement défini comme étant supprimé
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1852): note: voir la référence à l'instanciation de classe modèle 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4626: 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(263): warning C4820: 'std::numpunct<wchar_t>' : '4' octets de remplissage ajoutés après données membres 'std::numpunct<wchar_t>::_Kseparator'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1854): note: voir la référence à l'instanciation de classe modèle 'std::numpunct<wchar_t>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4625: 'std::numpunct<wchar_t>' : le constructeur de copie a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(265): warning C4626: 'std::numpunct<wchar_t>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4625: 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' : le constructeur de copie a été implicitement défini comme étant supprimé
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1856): note: voir la référence à l'instanciation de classe modèle 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1394): warning C4626: 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4625: 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' : le constructeur de copie a été implicitement défini comme étant supprimé
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1858): note: voir la référence à l'instanciation de classe modèle 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1833): warning C4626: 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ios(188): warning C4820: 'std::basic_ios<char,std::char_traits<char>>' : '7' octets de remplissage ajoutés après données membres 'std::basic_ios<char,std::char_traits<char>>::_Fillch'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ios(194): note: voir la référence à l'instanciation de classe modèle 'std::basic_ios<char,std::char_traits<char>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ios(188): warning C4820: 'std::basic_ios<wchar_t,std::char_traits<wchar_t>>' : '6' octets de remplissage ajoutés après données membres 'std::basic_ios<wchar_t,std::char_traits<wchar_t>>::_Fillch'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ios(196): note: voir la référence à l'instanciation de classe modèle 'std::basic_ios<wchar_t,std::char_traits<wchar_t>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ostream(629): warning C4820: 'std::basic_ostream<char,std::char_traits<char>>' : '4' octets de remplissage ajoutés après données membres 'std::basic_ostream<char,std::char_traits<char>>::{vbptr}'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ostream(687): note: voir la référence à l'instanciation de classe modèle 'std::basic_ostream<char,std::char_traits<char>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ostream(629): warning C4820: 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>' : '4' octets de remplissage ajoutés après données membres 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>::{vbptr}'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\ostream(689): note: voir la référence à l'instanciation de classe modèle 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(743): warning C4820: 'std::basic_istream<char,std::char_traits<char>>' : '4' octets de remplissage ajoutés après données membres 'std::basic_istream<char,std::char_traits<char>>::_Chcount'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(773): note: voir la référence à l'instanciation de classe modèle 'std::basic_istream<char,std::char_traits<char>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(743): warning C4820: 'std::basic_istream<wchar_t,std::char_traits<wchar_t>>' : '4' octets de remplissage ajoutés après données membres 'std::basic_istream<wchar_t,std::char_traits<wchar_t>>::_Chcount'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(774): note: voir la référence à l'instanciation de classe modèle 'std::basic_istream<wchar_t,std::char_traits<wchar_t>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(834): warning C4820: 'std::basic_iostream<char,std::char_traits<char>>' : '4' octets de remplissage ajoutés après classe de base 'std::basic_ostream<char,std::char_traits<char>>'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(839): note: voir la référence à l'instanciation de classe modèle 'std::basic_iostream<char,std::char_traits<char>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(834): warning C4820: 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>' : '4' octets de remplissage ajoutés après classe de base 'std::basic_ostream<wchar_t,std::char_traits<wchar_t>>'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\istream(840): note: voir la référence à l'instanciation de classe modèle 'std::basic_iostream<wchar_t,std::char_traits<wchar_t>>' en cours de compilation
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_io.h(49): warning C4820: '_finddata32i64_t' : '4' octets de remplissage ajoutés après données membres '_finddata32i64_t::name'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_io.h(54): warning C4820: '_finddata64i32_t' : '4' octets de remplissage ajoutés après données membres '_finddata64i32_t::attrib'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_io.h(64): warning C4820: '__finddata64_t' : '4' octets de remplissage ajoutés après données membres '__finddata64_t::attrib'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_io.h(69): warning C4820: '__finddata64_t' : '4' octets de remplissage ajoutés après données membres '__finddata64_t::name'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(352): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(352): warning C4315: 'ydlidar::LaserParamCfg' : le pointeur 'this' du membre 'ydlidar::LaserParamCfg::serialPort' ne peut pas être aligné 8 comme attendu par le constructeur
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(390): warning C4668: '__APPLE__' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(390): warning C4668: '_POSIX_C_SOURCE' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(390): warning C4668: '_XOPEN_SOURCE' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(390): warning C4668: '_POSIX_SOURCE' non défini(e) comme préprocesseur ou macro, remplacement par '0' pour '#if/#elif'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(417): warning C4459: la déclaration de 'old_signal_handler' masque la déclaration globale
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(401): note: voir la déclaration de 'old_signal_handler'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(417): warning C5039: 'signal' : un pointeur ou une référence à une fonction pouvant lever une exception a été passé à une fonction C externe sous -EHc. Un comportement non défini peut se produire si cette fonction lève une exception.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\thr/xthrcommon.h(28): warning C4820: '<anonymous-tag>' : '4' octets de remplissage ajoutés après données membres '<anonymous-tag>::_Id'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(36): warning C4820: '_timespec64' : '4' octets de remplissage ajoutés après données membres '_timespec64::tv_nsec'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\time.h(43): warning C4820: 'timespec' : '4' octets de remplissage ajoutés après données membres 'timespec::tv_nsec'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\thr/xtimec.h(22): warning C4820: 'xtime' : '4' octets de remplissage ajoutés après données membres 'xtime::nsec'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\thr/xthread(51): warning C5039: '_Thrd_start' : un pointeur ou une référence à une fonction pouvant lever une exception a été passé à une fonction C externe sous -EHc. Un comportement non défini peut se produire si cette fonction lève une exception.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\thr/xthread(137): warning C4820: 'std::_Auto_cnd' : '7' octets de remplissage ajoutés après données membres 'std::_Auto_cnd::_Active'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\thr/xthread(161): warning C4820: 'std::_Auto_mtx' : '7' octets de remplissage ajoutés après données membres 'std::_Auto_mtx::_Active'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\thr/xthread(215): warning C4820: 'std::_Pad' : '7' octets de remplissage ajoutés après données membres 'std::_Pad::_Started'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mutex(313): warning C4820: 'std::unique_lock<std::mutex>' : '7' octets de remplissage ajoutés après données membres 'std::unique_lock<std::mutex>::_Owns'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mutex(713): note: voir la référence à l'instanciation de classe modèle 'std::unique_lock<std::mutex>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mutex(836): warning C4623: 'std::_UInt_is_zero' : le constructeur par défaut a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mutex(836): warning C4626: 'std::_UInt_is_zero' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mutex(836): warning C5027: 'std::_UInt_is_zero' : l'opérateur d'assignation de déplacement a été implicitement défini comme étant supprimé
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\mutex(915): warning C4820: 'std::timed_mutex' : '4' octets de remplissage ajoutés après données membres 'std::timed_mutex::_My_locked'
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\locker.h(315): warning C4626: 'ScopedLocker' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(37): warning C5039: '_beginthreadex' : un pointeur ou une référence à une fonction pouvant lever une exception a été passé à une fonction C externe sous -EHc. Un comportement non défini peut se produire si cette fonction lève une exception.
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(57): warning C4312: 'reinterpret_cast' : la conversion de '_size_t' en 'HANDLE' d'une taille supérieure
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(57): warning C4245: 'argument' : conversion de 'int' en 'DWORD', incompatibilité signed/unsigned
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(58): warning C4312: 'reinterpret_cast' : la conversion de '_size_t' en 'HANDLE' d'une taille supérieure
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(79): warning C4312: 'reinterpret_cast' : la conversion de '_size_t' en 'HANDLE' d'une taille supérieure
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(81): warning C4312: 'reinterpret_cast' : la conversion de '_size_t' en 'HANDLE' d'une taille supérieure
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.h(715): warning C4625: 'ydlidar::YDlidarDriver' : le constructeur de copie a été implicitement défini comme étant supprimé
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.h(715): warning C4626: 'ydlidar::YDlidarDriver' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.h(715): warning C4091: '__declspec(dllexport)' : ignoré à gauche de 'ydlidar::YDlidarDriver' quand aucune variable n'est déclarée
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(2360): warning C4625: 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' : le constructeur de copie a été implicitement défini comme étant supprimé
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(82): note: voir la référence à l'instanciation de classe modèle 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(41): note: voir la référence à l'instanciation de classe modèle 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(45): warning C4315: 'ydlidar::YDlidarDriver' : le pointeur 'this' du membre 'ydlidar::YDlidarDriver::m_callback' ne peut pas être aligné 8 comme attendu par le constructeur
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(86): warning C4305: '=' : troncation de 'double' à 'float'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(306): warning C4244: 'initialisation' : conversion de 'double' en 'float', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(320): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(322): warning C4365: 'initialisation' : conversion de 'int' en 'size_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(348): warning C4244: 'initialisation' : conversion de 'uint64_t' en 'double', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(348): warning C4244: 'initialisation' : conversion de 'uint64_t' en 'const double', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(350): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(351): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(352): warning C4244: 'initialisation' : conversion de 'float' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(353): warning C4365: 'argument' : conversion de 'int' en 'const unsigned __int64', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(354): warning C4365: 'argument' : conversion de 'int' en 'const unsigned __int64', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(361): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(362): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(363): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(364): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(365): warning C4244: '=' : conversion de 'const double' en 'float', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(375): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(375): warning C4365: '=' : conversion de 'size_t' en 'int', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(377): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(377): warning C4365: '=' : conversion de 'size_t' en 'int', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(388): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(389): warning C4365: 'argument' : conversion de 'int' en 'const unsigned __int64', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(402): warning C4365: 'argument' : conversion de 'int' en 'const unsigned __int64', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(403): warning C4365: 'argument' : conversion de 'int' en 'const unsigned __int64', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(765): warning C4365: 'initialisation' : conversion de 'int' en 'size_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(800): warning C4365: '=' : conversion de 'int' en 'uint8_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(803): warning C4365: '=' : conversion de 'int' en 'uint8_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(826): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(837): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(839): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(885): warning C4365: 'initialisation' : conversion de 'int' en 'size_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(964): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(965): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(967): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(975): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(978): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(980): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1001): warning C4296: '<' : l'expression est toujours false
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1085): warning C4365: 'initialisation' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1086): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1104): warning C4365: 'initialisation' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1105): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1116): warning C4365: 'initialisation' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1117): warning C4365: '=' : conversion de 'int' en 'uint16_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1127): warning C4365: '=' : conversion de 'int' en 'size_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1277): warning C4244: '=' : conversion de 'double' en 'uint32_t', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1293): warning C4244: '=' : conversion de 'double' en 'uint32_t', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1296): warning C4244: '=' : conversion de 'double' en 'uint32_t', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1307): warning C4244: '=' : conversion de 'double' en 'uint32_t', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1317): warning C4244: '=' : conversion de 'double' en 'uint32_t', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1353): warning C4365: 'argument' : conversion de 'int' en 'uint8_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1396): warning C4365: 'argument' : conversion de 'int' en 'uint8_t', incompatibilité signed/unsigned
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1481): warning C4458: la déclaration de 'model' masque le membre de classe
+  c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.h(681): note: voir la déclaration de 'ydlidar::YDlidarDriver::model'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1695): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1711): warning C4244: '=' : conversion de 'float' en 'int', perte possible de données
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1759): warning C4365: 'argument' : conversion de 'int' en 'uint32_t', incompatibilité signed/unsigned
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\utility(321): warning C4820: 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool>' : '7' octets de remplissage ajoutés après données membres 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool>::second'
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(363): note: voir la référence à l'instanciation de classe modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool>' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(362): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(150): note: voir la référence à l'instanciation de la fonction modèle 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(41): note: voir la référence à l'instanciation de classe modèle 'std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(710): warning C4820: 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' : '7' octets de remplissage ajoutés après données membres 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Failed'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: voir la référence à l'instanciation de classe modèle 'std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1858): note: voir la référence à l'instanciation de classe modèle 'std::num_put<wchar_t,std::ostreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1616): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1616): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1616): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1599): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1592): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1592): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1592): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1575): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1569): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1569): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1569): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1565): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1559): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1559): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1559): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1555): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1549): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1549): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1549): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1545): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1539): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1539): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1539): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1535): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(631): warning C4820: 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' : '1' octets de remplissage ajoutés après données membres 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Got'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: voir la référence à l'instanciation de classe modèle 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1856): note: voir la référence à l'instanciation de classe modèle 'std::num_get<wchar_t,std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(632): warning C4820: 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>' : '4' octets de remplissage ajoutés après données membres 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Val'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(549): warning C4820: 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Istreambuf_proxy' : '6' octets de remplissage ajoutés après données membres 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Istreambuf_proxy::_Keep'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(767): note: voir la référence à l'instanciation de classe modèle 'std::istreambuf_iterator<wchar_t,std::char_traits<wchar_t>>::_Istreambuf_proxy' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(763): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(710): warning C4820: 'std::ostreambuf_iterator<char,std::char_traits<char>>' : '7' octets de remplissage ajoutés après données membres 'std::ostreambuf_iterator<char,std::char_traits<char>>::_Failed'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: voir la référence à l'instanciation de classe modèle 'std::ostreambuf_iterator<char,std::char_traits<char>>' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1623): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1852): note: voir la référence à l'instanciation de classe modèle 'std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(632): warning C4820: 'std::istreambuf_iterator<char,std::char_traits<char>>' : '6' octets de remplissage ajoutés après données membres 'std::istreambuf_iterator<char,std::char_traits<char>>::_Val'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: voir la référence à l'instanciation de classe modèle 'std::istreambuf_iterator<char,std::char_traits<char>>' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(775): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1850): note: voir la référence à l'instanciation de classe modèle 'std::num_get<char,std::istreambuf_iterator<char,std::char_traits<char>>>' en cours de compilation
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\streambuf(549): warning C4820: 'std::istreambuf_iterator<char,std::char_traits<char>>::_Istreambuf_proxy' : '7' octets de remplissage ajoutés après données membres 'std::istreambuf_iterator<char,std::char_traits<char>>::_Istreambuf_proxy::_Keep'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(767): note: voir la référence à l'instanciation de classe modèle 'std::istreambuf_iterator<char,std::char_traits<char>>::_Istreambuf_proxy' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(763): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(401): warning C4820: 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' : '6' octets de remplissage ajoutés après données membres 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>::_Isnil'
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(503): note: voir la référence à l'instanciation de classe modèle 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(502): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1418): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *&std::_Tree_val<std::_Tree_simple_types<_Ty>>::_Rmost(void) const' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xutility(269): note: voir la référence à l'instanciation de classe modèle 'std::_Tree_val<std::_Tree_simple_types<_Ty>>' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xutility(269): note: voir la référence à l'instanciation de classe modèle 'std::_Compressed_pair<std::allocator<std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::_Tree_val<std::_Tree_simple_types<_Ty>>,true>' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1025): note: voir la référence à l'instanciation de classe modèle 'std::_Compressed_pair<std::less<_Kty>,std::_Compressed_pair<std::allocator<std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>,std::_Tree_val<std::_Tree_simple_types<_Ty>>,true>,true>' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1032): note: voir la référence à l'instanciation de classe modèle 'std::_Tree_comp_alloc<_Traits>' en cours de compilation
+          with
+          [
+              _Traits=std::_Tmap_traits<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(82): note: voir la référence à l'instanciation de classe modèle 'std::_Tree<std::_Tmap_traits<_Kty,_Ty,_Pr,_Alloc,false>>' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(831): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(826): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(792): note: voir la référence à l'instanciation de la fonction modèle 'void std::_Tree_comp_alloc<_Traits>::_Construct(void)' en cours de compilation
+          with
+          [
+              _Traits=std::_Tmap_traits<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>,false>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(935): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(927): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(828): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buyheadnode(void)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Traits=std::_Tmap_traits<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>,false>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(530): warning C4774: '_scprintf' : la chaîne de format attendue dans l'argument 1 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(530): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(530): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(583): note: voir la référence à l'instanciation de la fonction modèle 'std::string std::_Floating_to_string<float>(const char *,_Ty)' en cours de compilation
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(532): warning C4774: 'sprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(532): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(532): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(542): warning C4774: '_scwprintf' : la chaîne de format attendue dans l'argument 1 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(542): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(542): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(629): note: voir la référence à l'instanciation de la fonction modèle 'std::wstring std::_Floating_to_wstring<float>(const wchar_t *,_Ty)' en cours de compilation
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(544): warning C4774: 'swprintf_s' : la chaîne de format attendue dans l'argument 3 n'est pas un littéral de chaîne
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(544): note: par ex., au lieu de printf(name); utilisez printf("%s", name);, car les spécificateurs de format dans 'name' peuvent entraîner un problème de sécurité
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\string(544): note: utilisez le spécificateur constexpr pour les littéraux de chaîne nommés
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(974): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(922): note: voir la référence à l'instanciation de la fonction modèle 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> *std::vector<std::string,std::allocator<_Ty>>::_Emplace_reallocate<const _Ty&>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> *const ,const _Ty &)' en cours de compilation
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(922): note: voir la référence à l'instanciation de la fonction modèle 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> *std::vector<std::string,std::allocator<_Ty>>::_Emplace_reallocate<const _Ty&>(std::basic_string<char,std::char_traits<char>,std::allocator<char>> *const ,const _Ty &)' en cours de compilation
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(932): note: voir la référence à l'instanciation de la fonction modèle 'void std::vector<std::string,std::allocator<_Ty>>::emplace_back<const _Ty&>(const _Ty &)' en cours de compilation
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(931): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(149): note: voir la référence à l'instanciation de la fonction modèle 'void std::vector<std::string,std::allocator<_Ty>>::push_back(const _Ty &)' en cours de compilation
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(139): note: voir la référence à l'instanciation de classe modèle 'std::vector<std::string,std::allocator<_Ty>>' en cours de compilation
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(1448): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(1482): note: voir la référence à l'instanciation de la fonction modèle 'void std::vector<float,std::allocator<_Ty>>::_Resize<std::vector<_Ty,std::allocator<_Ty>>::resize::<lambda_a0fd67340d08d33487be225a22701bdb>>(const unsigned __int64,_Lambda)' en cours de compilation
+          with
+          [
+              _Ty=float,
+              _Lambda=std::vector<float,std::allocator<float>>::resize::<lambda_a0fd67340d08d33487be225a22701bdb>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(1482): note: voir la référence à l'instanciation de la fonction modèle 'void std::vector<float,std::allocator<_Ty>>::_Resize<std::vector<_Ty,std::allocator<_Ty>>::resize::<lambda_a0fd67340d08d33487be225a22701bdb>>(const unsigned __int64,_Lambda)' en cours de compilation
+          with
+          [
+              _Ty=float,
+              _Lambda=std::vector<float,std::allocator<float>>::resize::<lambda_a0fd67340d08d33487be225a22701bdb>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\vector(1476): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(353): note: voir la référence à l'instanciation de la fonction modèle 'void std::vector<float,std::allocator<_Ty>>::resize(const unsigned __int64)' en cours de compilation
+          with
+          [
+              _Ty=float
+          ]
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Utils.h(329): note: voir la référence à l'instanciation de classe modèle 'std::vector<float,std::allocator<_Ty>>' en cours de compilation
+          with
+          [
+              _Ty=float
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(212): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(200): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(160): note: voir la référence à l'instanciation de la fonction modèle 'void std::numpunct<wchar_t>::_Init(const std::_Locinfo &,bool)' en cours de compilation
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xlocnum(1854): note: voir la référence à l'instanciation de classe modèle 'std::numpunct<wchar_t>' en cours de compilation
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(31): warning C4365: 'return' : conversion de 'int' en '_size_t', incompatibilité signed/unsigned
+  c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\thread.h(27): note: voir la référence à l'instanciation de la fonction modèle '_size_t Thread::createThreadAux<CLASS,int ydlidar::YDlidarDriver::cacheScanData(void)>(void *)' en cours de compilation
+          with
+          [
+              CLASS=ydlidar::YDlidarDriver
+          ]
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1377): note: voir la référence à l'instanciation de la fonction modèle 'Thread Thread::ThreadCreateObjectFunctor<ydlidar::YDlidarDriver,int ydlidar::YDlidarDriver::cacheScanData(void)>(CLASS *)' en cours de compilation
+          with
+          [
+              CLASS=ydlidar::YDlidarDriver
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\tuple(271): warning C4626: 'std::_Tuple_val<_This>' : l'opérateur d'assignation a été implicitement défini comme étant supprimé
+          with
+          [
+              _This=const std::string &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\tuple(845): note: voir la référence à l'instanciation de classe modèle 'std::_Tuple_val<_This>' en cours de compilation
+          with
+          [
+              _This=const std::string &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(232): note: voir la référence à l'instanciation de classe modèle 'std::tuple<const _Ty &>' en cours de compilation
+          with
+          [
+              _Ty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(248): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,std::string,std::less<_Kty>,std::allocator<_Ty>>::_Try_emplace<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>&,>(_Keyty)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Keyty=const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(248): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,std::string,std::less<_Kty>,std::allocator<_Ty>>::_Try_emplace<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>&,>(_Keyty)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Keyty=const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(363): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,std::string,std::less<_Kty>,std::allocator<_Ty>>::try_emplace<>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(363): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,std::string,std::less<_Kty>,std::allocator<_Ty>>::try_emplace<>(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(362): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(150): note: voir la référence à l'instanciation de la fonction modèle 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &std::map<std::string,std::string,std::less<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>::operator [](const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' en cours de compilation
+          with
+          [
+              _Kty=std::string,
+              _Ty=std::string
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\tuple(271): warning C5027: 'std::_Tuple_val<_This>' : l'opérateur d'assignation de déplacement a été implicitement défini comme étant supprimé
+          with
+          [
+              _This=const std::string &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(985): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1162): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<const std::piecewise_construct_t&,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>,std::tuple<>>(const std::piecewise_construct_t &,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &> &&,std::tuple<> &&)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Traits=std::_Tmap_traits<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1162): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<const std::piecewise_construct_t&,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>,std::tuple<>>(const std::piecewise_construct_t &,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &> &&,std::tuple<> &&)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Traits=std::_Tmap_traits<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>,false>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(232): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,const std::piecewise_construct_t &,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &> &&,std::tuple<> &&)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(232): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::emplace_hint<const std::piecewise_construct_t&,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &>,std::tuple<>>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,const std::piecewise_construct_t &,std::tuple<const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &> &&,std::tuple<> &&)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(248): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,std::string,std::less<_Kty>,std::allocator<_Ty>>::_Try_emplace<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>&,>(_Keyty)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Keyty=const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\map(248): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::map<std::string,std::string,std::less<_Kty>,std::allocator<_Ty>>::_Try_emplace<const std::basic_string<char,std::char_traits<char>,std::allocator<char>>&,>(_Keyty)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Keyty=const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1720): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1163): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::_Insert_hint<_Value_type&,std::_Tree_node<_Value_type,std::_Default_allocator_traits<_Alloc>::void_pointer>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,_Valty,_Nodety)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Value_type=std::pair<const std::string,std::string>,
+              _Valty=std::pair<const std::string,std::string> &,
+              _Nodety=std::_Tree_node<std::pair<const std::string,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::string>>>::void_pointer> *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1163): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::_Insert_hint<_Value_type&,std::_Tree_node<_Value_type,std::_Default_allocator_traits<_Alloc>::void_pointer>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,_Valty,_Nodety)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Value_type=std::pair<const std::string,std::string>,
+              _Valty=std::pair<const std::string,std::string> &,
+              _Nodety=std::_Tree_node<std::pair<const std::string,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::string>>>::void_pointer> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(961): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(951): note: pendant la compilation de la fonction membre '<Inconnu>' (classe <Inconnu>)
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(977): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode0(void)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Traits=std::_Tmap_traits<std::string,std::string,std::less<std::string>,std::allocator<std::pair<const std::string,std::string>>,false>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1796): warning C4571: Informations : la sémantique catch(...) a changé depuis Visual C++ 7.1 ; les exceptions structurées (SEH) ne sont plus interceptées
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1726): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::_Insert_nohint<_Value_type&,_Nodety>(bool,_Valty,_Nodety)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Value_type=std::pair<const std::string,std::string>,
+              _Nodety=std::_Tree_node<std::pair<const std::string,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::string>>>::void_pointer> *,
+              _Valty=std::pair<const std::string,std::string> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1725): note: voir la référence à l'instanciation de la fonction modèle 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::_Insert_nohint<_Value_type&,_Nodety>(bool,_Valty,_Nodety)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Value_type=std::pair<const std::string,std::string>,
+              _Nodety=std::_Tree_node<std::pair<const std::string,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::string>>>::void_pointer> *,
+              _Valty=std::pair<const std::string,std::string> &
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1163): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::_Insert_hint<_Value_type&,std::_Tree_node<_Value_type,std::_Default_allocator_traits<_Alloc>::void_pointer>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,_Valty,_Nodety)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Value_type=std::pair<const std::string,std::string>,
+              _Valty=std::pair<const std::string,std::string> &,
+              _Nodety=std::_Tree_node<std::pair<const std::string,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::string>>>::void_pointer> *
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include\xtree(1163): note: voir la référence à l'instanciation de la fonction modèle 'std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>> std::_Tree<std::_Tmap_traits<_Kty,std::basic_string<char,std::char_traits<char>,std::allocator<char>>,_Pr,_Alloc,false>>::_Insert_hint<_Value_type&,std::_Tree_node<_Value_type,std::_Default_allocator_traits<_Alloc>::void_pointer>*>(std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,_Valty,_Nodety)' en cours de compilation
+          with
+          [
+              _Ty=std::pair<const std::string,std::string>,
+              _Kty=std::string,
+              _Pr=std::less<std::string>,
+              _Alloc=std::allocator<std::pair<const std::string,std::string>>,
+              _Value_type=std::pair<const std::string,std::string>,
+              _Valty=std::pair<const std::string,std::string> &,
+              _Nodety=std::_Tree_node<std::pair<const std::string,std::string>,std::_Default_allocator_traits<std::allocator<std::pair<const std::string,std::string>>>::void_pointer> *
+          ]
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1530): warning C4710: 'int swprintf_s(wchar_t *const ,const size_t,const wchar_t *const ,...)' : fonction non inline
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1530): note: voir la déclaration de 'swprintf_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1761): warning C4710: 'int _scwprintf(const wchar_t *const ,...)' : fonction non inline
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdio.h(1761): note: voir la déclaration de '_scwprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(828): warning C4710: 'int fprintf(FILE *const ,const char *const ,...)' : fonction non inline
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(828): note: voir la déclaration de 'fprintf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(948): warning C4710: 'int printf(const char *const ,...)' : fonction non inline
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(948): note: voir la déclaration de 'printf'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1833): warning C4710: 'int sprintf_s(char *const ,const size_t,const char *const ,...)' : fonction non inline
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1833): note: voir la déclaration de 'sprintf_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2100): warning C4710: 'int _scprintf(const char *const ,...)' : fonction non inline
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(2100): note: voir la déclaration de '_scprintf'
+C:\Users\TranA\Desktop\gitYlidar\ydlidar_sdk\Lidar\Drivers\YDLidar\ydlidar_driver.cpp(1069): warning C4505: 'ydlidar::angleLessThan' : la fonction locale non référencée a été supprimée
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.cpp(1065): warning C4702: impossible d'atteindre le code
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.cpp(1373): warning C4702: impossible d'atteindre le code
+c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.cpp(1624): warning C5045: Le compilateur va insérer l'atténuation Spectre pour la charge de mémoire si le commutateur /Qspectre est spécifié
+  c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.cpp(1623) : remarque : plage 'i' de l'index vérifiée par comparaison sur cette ligne
+  c:\users\trana\desktop\gitylidar\ydlidar_sdk\lidar\drivers\ydlidar\ydlidar_driver.cpp(1624) : remarque : alimente l'appel sur cette ligne
+  ydlidar_driver_static.vcxproj -> C:\Users\TranA\Desktop\gitYlidar\build\Debug\ydlidar_driver.lib
