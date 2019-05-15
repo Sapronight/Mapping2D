@@ -19,7 +19,7 @@ Aucune installation préalable n'est requise pour exécuter nos deux scripts. Il
 
 ## Exécution
 
-Dans le dossier contenant le code C++, choisissez le dossier [Debug] , il suffit d'executer [Debug/ydlidar_test1.exe]
+Dans le dossier contenant le code C++, choisissez le dossier [Debug] , il suffit d'executer [ydlidar_test1.exe] puis de compiler le fichier python [testQtClassV2.py]
 
 ### Break down into end to end tests
 
