@@ -19,5 +19,5 @@ Aucune installation préalable n'est requise pour exécuter nos deux scripts. Il
 
 ## Exécution
 
-Dans le dossier contenant le code C++, choisissez le dossier [Debug](Mapping2D/Debug/) , il suffit d'executer [ydlidar_test1.exe](Mapping2D/Debug/ydlidar_test1.exe) puis de compiler le fichier python [testQtClassV2.py](Mapping2D/Debug/testQTclassV2.py).
+Dans le dossier contenant le code C++, choisissez le dossier [Debug](Mapping2D/Debug) , il suffit d'executer [ydlidar_test1.exe](Mapping2D/Debug/ydlidar_test1.exe) puis de compiler le fichier python [testQtClassV2.py](Mapping2D/Debug/testQTclassV2.py).
 
